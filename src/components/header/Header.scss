@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  background-color: rgb(181, 203, 226);
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .logo {
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      list-style: none;
+
+      .links {
+        font-size: 20px;
+        color: rgb(109, 109, 109);
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          color: white;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
